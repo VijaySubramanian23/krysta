@@ -9,7 +9,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+time, mark, audio, video {margin:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
 body {line-height:1;}
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {display:block;}
@@ -380,8 +380,8 @@ animation: backgroundScroll 20s linear infinite;
 
 .logpop .modal-body{padding: 0;}
 .logpop .nav li{padding: 0; margin: 0;}
-.logpop .nav li a{background-color: #1c1c1d; color: #fff !important; border-radius: 0 !important; font-size: 18px; text-transform: uppercase; border: none !important; margin: 0;}
-.logpop .nav .active a, .logpop .nav li a:hover, .logpop .nav li a:focus{background-color: #eeb300 !important; color: #fff;}
+.logpop .nav li a{background-color: #a94442; color: #fff !important; border-radius: 0 !important; font-size: 28px; text-transform: uppercase; border: none !important; margin: 0;}
+.logpop .nav .active a, .logpop .nav li a:hover, .logpop .nav li a:focus{ }
 
 .logpop .modal-content{border-radius: 0;}
 .logpop .modals-inner{padding: 25px 15px; /*border: 5px solid #eeb300;*/ border-top: none;}
@@ -389,7 +389,7 @@ animation: backgroundScroll 20s linear infinite;
 .logpop .tab-content label{font-size: 14px; font-weight: 500; margin-bottom: 10px; text-transform:uppercase;}
 .logpop .modals-inner .btn{border-radius: 0; font-size: 16px; padding: 10px 25px; text-transform: uppercase;} 
 .org-btn{background-color: #1c1c1d; border:1px solid #1c1c1d;}
-.org-btn:hover, .org-btn:focus{background-color: #eeb300; border: 1px solid #eeb300;}
+.org-btn:hover, .org-btn:focus{color:white;background-color: #a94442;}
 .forgot-txt,.login-txt{margin-top: 10px; font-size: 14px; color: #222; float: left;}
 .forgot-txt:hover, .forgot-txt:focus,.login-txt:hover,.login-txt:focus{color: #eeb300;}
 .login-txt{display:none}
@@ -522,6 +522,7 @@ border:2px solid white;
 }
 .tab-pane p{
     margin:10px;
+    line-height: 30px;
 }
 .bttn{
     padding: 0px;
@@ -536,6 +537,7 @@ border:2px solid white;
 }
 .modal-body ul li{
     padding:5px 5px 5px 10px;
+    line-height: 30px;
 
 }
 .modal-body h2{
@@ -551,4 +553,11 @@ border:2px solid white;
     .modal-dialog{
         width:95%;
     }
+}
+label{
+    padding:10px;
+}
+
+.nav-tabs>li.active>.reg-tab{
+    background-color:#a94442 !important;
 }
